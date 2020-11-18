@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="vmi402285" name="edu.orsys.jee.tests.AllTests" skipped="0" tests="41" time="1.625" timestamp="2020-11-18T10:06:59">
+  <properties>
+    <property name="ant.library.dir" value="C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="13" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.class.path" value="C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\bin\..\lib\ant-launcher.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-antlr.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-apache-bcel.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-apache-bsf.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-apache-log4j.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-apache-oro.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-apache-regexp.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-apache-resolver.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-apache-xalan2.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-commons-logging.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-commons-net.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-imageio.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-jai.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-javamail.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-jdepend.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-jmf.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-jsch.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-junit.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-junit4.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-junitlauncher.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-launcher.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-netrexx.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-swing.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-testutil.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant-xz.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\mockito-core-3.6.0.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\mysql-connector.jar;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\servlet-api.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="java.vm.specification.version" value="13" />
+    <property name="os.name" value="Windows Server 2016" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="US" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher tests" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\Administrator" />
+    <property name="user.language" value="en" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2019-09-17" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-13" />
+    <property name="file.separator" value="\" />
+    <property name="basedir" value="C:\Users\Administrator\eclipse-workspace\Projet-JEE-CAMACHO" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="ant.java.version" value="13" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="13+33" />
+    <property name="user.name" value="Administrator" />
+    <property name="ant.file" value="C:\Users\Administrator\eclipse-workspace\Projet-JEE-CAMACHO\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.project.invoked-targets" value="tests" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\" />
+    <property name="java.version" value="13" />
+    <property name="user.dir" value="C:\Users\Administrator\eclipse-workspace\Projet-JEE-CAMACHO" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.home" value="C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\bin\.." />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.7 compiled on September 1 2019" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-13\bin;C:\Users\Administrator\Documents\sonar-scanner-cli-4.2.0.1873-windows\sonar-scanner-4.2.0.1873-windows\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Brackets\command;C:\Users\Administrator\Documents\apache-ant-1.10.7-bin\apache-ant-1.10.7\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="13+33" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="57.0" />
+  </properties>
+  <testcase classname="edu.orsys.jee.tests.ConnecteurTest" name="testMockDBConnection" time="0.061">
+    <error message="&#xa;Failed to release mocks&#xa;&#xa;This should not happen unless you are using a third-part mock maker" type="org.mockito.exceptions.base.MockitoException">org.mockito.exceptions.base.MockitoException: 
+Failed to release mocks
+
+This should not happen unless you are using a third-part mock maker
+	at edu.orsys.jee.tests.ConnecteurTest.setUp(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalStateException: Could not initialize plugin: interface org.mockito.plugins.MockMaker (alternate: null)
+	at org.mockito.internal.configuration.plugins.PluginLoader$1.invoke(PluginLoader.java:84)
+	at com.sun.proxy.$Proxy12.isTypeMockable(Unknown Source)
+	at org.mockito.internal.util.MockUtil.typeMockabilityOf(MockUtil.java:33)
+	at org.mockito.internal.util.MockCreationValidator.validateType(MockCreationValidator.java:22)
+	at org.mockito.internal.creation.MockSettingsImpl.validatedSettings(MockSettingsImpl.java:250)
+	at org.mockito.internal.creation.MockSettingsImpl.build(MockSettingsImpl.java:232)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:60)
+	at org.mockito.Mockito.mock(Mockito.java:1949)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.processAnnotationForMock(MockAnnotationProcessor.java:66)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:27)
+	at org.mockito.internal.configuration.MockAnnotationProcessor.process(MockAnnotationProcessor.java:24)
+	at org.mockito.internal.configuration.IndependentAnnotationEngine.createMockFor(IndependentAnnotationEngine.java:46)
+	at org.mockito.internal.configuration.IndependentAnnotationEngine.process(IndependentAnnotationEngine.java:73)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.processIndependentAnnotations(InjectingAnnotationEngine.java:73)
+	at org.mockito.internal.configuration.InjectingAnnotationEngine.process(InjectingAnnotationEngine.java:47)
+	at org.mockito.MockitoAnnotations.openMocks(MockitoAnnotations.java:82)
+	at org.mockito.MockitoAnnotations.initMocks(MockitoAnnotations.java:100)
+Caused by: java.lang.IllegalStateException: Internal problem occurred, please report it. Mockito is unable to load the default implementation of class that is a part of Mockito distribution. Failed to load interface org.mockito.plugins.MockMaker
+	at org.mockito.internal.configuration.plugins.DefaultMockitoPlugins.create(DefaultMockitoPlugins.java:84)
+	at org.mockito.internal.configuration.plugins.DefaultMockitoPlugins.getDefaultPlugin(DefaultMockitoPlugins.java:57)
+	at org.mockito.internal.configuration.plugins.PluginLoader.loadPlugin(PluginLoader.java:75)
+	at org.mockito.internal.configuration.plugins.PluginLoader.loadPlugin(PluginLoader.java:50)
+	at org.mockito.internal.configuration.plugins.PluginRegistry.&lt;init&gt;(PluginRegistry.java:19)
+	at org.mockito.internal.configuration.plugins.Plugins.&lt;clinit&gt;(Plugins.java:16)
+	at org.mockito.internal.configuration.GlobalConfiguration.tryGetPluginAnnotationEngine(GlobalConfiguration.java:57)
+	at org.mockito.MockitoAnnotations.openMocks(MockitoAnnotations.java:81)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.mockito.internal.configuration.plugins.DefaultMockitoPlugins.create(DefaultMockitoPlugins.java:82)
+Caused by: java.lang.NoClassDefFoundError: net/bytebuddy/dynamic/loading/ClassInjector$UsingReflection
+	at org.mockito.internal.creation.bytebuddy.SubclassInjectionLoader.&lt;init&gt;(SubclassInjectionLoader.java:31)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.&lt;init&gt;(SubclassByteBuddyMockMaker.java:33)
+	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.&lt;init&gt;(ByteBuddyMockMaker.java:25)
+Caused by: java.lang.ClassNotFoundException: net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:436)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+</error>
+  </testcase>
+  <testcase classname="edu.orsys.jee.tests.EntityTest" name="toStringMethods" time="0.062" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ModifierEntiteCorrespondreDansDatabase" time="0.518" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ModifierEntitePerimetreDansDatabase" time="0.049" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="CreerUneEntiteVersion" time="0.0" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="CreerUneEntiteVulnerabilite" time="0.0" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ChercherCorrespondre" time="0.031" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="CreerUneEntiteLogiciel" time="0.0" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="SupprimerEntiteVulnerabiliteDansDatabase" time="0.031" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="SupprimerEntiteCorrespondreDansDatabase" time="0.031" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="SupprimerEntiteVersionDansDatabase" time="0.047" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="CreerUneEntiteUser" time="0.0" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="SupprimerEntiteUserDansDatabaseByLogin" time="0.031" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="AjouterEntiteCorrespondreDansDatabase" time="0.032" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ChercherUserParLogin" time="0.015" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ChercherVulnerabilite" time="0.031" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ChercherVersion" time="0.035" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="CreerUneEntiteCorrespondre" time="0.0" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="SupprimerEntiteLogicielDansDatabase" time="0.028" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="CreerUneEntiteSetting" time="0.0" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="AjouterEntitePerimetreDansDatabase" time="0.031" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ModifierEntiteUserDansDatabase" time="0.031" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="AjouterEntiteSettingDansDatabase" time="0.032" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="CreerUneEntitePerimetre" time="0.0" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ChercherUserParLoginEtPassword" time="0.015" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ModifierEntiteSettingDansDatabase" time="0.047" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="AjouterEntiteUserDansDatabase" time="0.031" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ChercherUserParId" time="0.016" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="AjouterEntiteLogicielDansDatabase" time="0.062" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ChercherLogiciel" time="0.016" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ChercherSetting" time="0.016" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ChercherPerimetre" time="0.015" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="AllGettersAndSetterOnEntityLists" time="0.0" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="SupprimerEntiteUserDansDatabaseById" time="0.036" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="AjouterEntiteVulnerabiliteDansDatabase" time="0.027" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="AjouterEntiteVersionDansDatabase" time="0.015" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="SupprimerEntiteSettingDansDatabase" time="0.032" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ModifierEntiteVersionDansDatabase" time="0.047" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ConnectionGetterAndSetter" time="0.0" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="SupprimerEntitePerimetreDansDatabase" time="0.015" />
+  <testcase classname="edu.orsys.jee.tests.ModelTest" name="ModifierEntiteVulnerabiliteDansDatabase" time="0.063" />
+  <system-out><![CDATA[!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+!connection établie !!!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

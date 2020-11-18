@@ -1,0 +1,22 @@
+<project>
+	<target name="clean">
+		<delete dir="bin"></delete>
+	</target>
+	<target name="compile">
+		<mkdir dir="bin" />
+		<javac destdir="bin" srcdir="src" classpath="C:\Users\Administrator\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar" />
+	</target>
+	<target name="tests" depends="compile">
+		<junit>
+			<classpath>
+				<pathelement location="C:\Users\Administrator\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar" />
+				<pathelement location="C:\Users\Administrator\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+				<pathelement location="C:\javaee\apache-tomcat-8.5.58\lib\servlet-api.jar"/>
+				<pathelement location="C:\Users\Administrator\Downloads\exempledaocrud-master\exempledaocrud-master\mysql-connector.jar"/>
+				<pathelement location="${basedir}\bin" />
+			</classpath>
+			<formatter type="xml" />
+			<test name="edu.orsys.jee.tests.ModelTest" outfile="result" />
+		</junit>
+	</target>
+</project>
