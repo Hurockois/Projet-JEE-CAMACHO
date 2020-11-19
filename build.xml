@@ -17,6 +17,7 @@
 			</classpath>
 			<formatter type="xml" />
 			<test name="edu.orsys.jee.tests.AllTests" outfile="result" />
+			
 		</junit>
 	</target>
 </project>
