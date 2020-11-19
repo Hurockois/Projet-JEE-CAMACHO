@@ -16,7 +16,7 @@
 				<pathelement location="${basedir}\bin" />
 			</classpath>
 			<formatter type="xml" />
-			<test name="edu.orsys.jee.tests.ModelTest" outfile="result" />
+			<test name="edu.orsys.jee.tests.AllTests" outfile="result" />
 		</junit>
 	</target>
 </project>
