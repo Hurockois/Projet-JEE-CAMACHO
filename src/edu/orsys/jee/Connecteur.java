@@ -30,6 +30,9 @@ public class Connecteur {
 		System.out.println("!connection établie !!!");
 		return c;
 	}
+	 public int executeQuery(String query) throws ClassNotFoundException, SQLException {
+		    return c.createStatement().executeUpdate(query);
+		  }
 
 
 }

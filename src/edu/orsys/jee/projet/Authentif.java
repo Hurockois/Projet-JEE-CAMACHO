@@ -21,7 +21,6 @@ import javax.servlet.http.HttpSession;
 import edu.orsys.jee.Connecteur;
 import edu.orsys.jee.Model;
 
-
 /**
  * Servlet implementation class Servlet1
  */
@@ -55,23 +54,28 @@ public class Authentif extends HttpServlet {
 			throws ServletException, IOException {
 		String login = request.getParameter("login");
 		String pwd = request.getParameter("pwd");
-		User u = Model.chercherUser(login, pwd);
+		User user = Model.chercherUser(login);
 		HttpSession session = request.getSession(true);
-//		Model.alimenterBase();
-		if (login != null && pwd != null && u != null) {
-			Model model = new Model();
-			session.setAttribute("model", model);
-			if (u.getRole().equals("admin")) {
-				request.getRequestDispatcher("/accueil4admin.jsp").forward(request, response);
-			} else if (u.getRole().equals("user")) {
-				request.getRequestDispatcher("/accueil4users.jsp").forward(request, response);
+
+		if (user != null) {
+			User u = Model.chercherUser(login,pwd);
+			if (u != null) {
+				if (u.getRole().equals("admin")) {
+					request.getRequestDispatcher("/accueil4admin.jsp").forward(request, response);
+				} else if (u.getRole().equals("user")) {
+					request.getRequestDispatcher("/accueil4users.jsp").forward(request, response);
+				} else {
+					request.setAttribute("message", "Une erreur s'est produite, veuillez recommencer");
+					getServletContext().getRequestDispatcher("/authentif.jsp").forward(request, response);
+				}
+			} else {				
+				request.setAttribute("message", "Desole, le mot de passe est erroné pour cet utilisateur ");
+				getServletContext().getRequestDispatcher("/authentif.jsp").forward(request, response);
 			}
 		} else {
-			request.setAttribute("message", "Ressaissez vos paramétres de connexion !!!");
+			request.setAttribute("message", "Desole, utilisateur non reconnu");
 			getServletContext().getRequestDispatcher("/authentif.jsp").forward(request, response);
-
-		}	
-
+		}
 	}
 
 	/**

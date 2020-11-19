@@ -14,7 +14,7 @@
 
 </head>
 <body>
-<%-- <jsp:useBean id="model" class="edu.orsys.jee.Model" scope="session"></jsp:useBean> --%>
+<jsp:useBean id="model" class="edu.orsys.jee.Model" scope="session"></jsp:useBean>
 	<div class="container">
 		<center>
 			<h1>Authentification</h1>

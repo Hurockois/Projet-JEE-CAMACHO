@@ -17,6 +17,7 @@
 	href="http://localhost:8080/Projet-JEE-CAMACHO/style.css">
 </head>
 <body>
+<jsp:useBean id="model" class="edu.orsys.jee.Model" scope="session"></jsp:useBean>
 	<div class="container">
 		<br>
 		<center>
@@ -60,13 +61,6 @@
 	</div>
 	<div class="card">
 		<table class="table table-striped">
-			<!-- 			<thead> -->
-			<!-- 				<th>Logiciel</th> -->
-			<!-- 				<th>Vulnerabilite</th> -->
-			<!-- 				<th>Reference</th> -->
-			<!-- 				<th>Synthese</th> -->
-			<!-- 				<th>Date de sortie</th> -->
-			<!-- 			</thead> -->
 			<tbody>
 				<c:forEach var="p" items="${model.getListeP()}" varStatus="status">
 

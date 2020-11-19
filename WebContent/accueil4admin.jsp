@@ -33,26 +33,14 @@
 	<div>
 		<a href="Perimetres.jsp"> Vers la gestion de vos perimetres </a>
 	</div>
-	<%-- 	<jsp:useBean id="model" class="edu.orsys.jee.Model" scope="session"></jsp:useBean> --%>
+	<jsp:useBean id="model" class="edu.orsys.jee.Model" scope="session"></jsp:useBean>
 
-	<!-- 	<div class="card"> -->
 	<table class="table table-borderless">
-		<!-- 			<thead> -->
-		<!-- 				<th>Logiciel</th> -->
-		<!-- 				<th>Vulnerabilite</th> -->
-		<!-- 				<th>Reference</th> -->
-		<!-- 				<th>Synthese</th> -->
-		<!-- 				<th>Date de sortie</th> -->
-		<!-- 			</thead> -->
 		<tbody>
 			<c:forEach var="c" items="${model.getListeC()}" varStatus="status">
 				<c:set var="gravite" scope="session"
 					value="${model.chercherVulnerabilite(c.getId_vulnerabilite()).getNiveau_gravite()}" />
 				<tr>
-					<!-- 					<div class="card border-1per"> -->
-
-					<!-- 							<table> -->
-
 					<c:choose>
 						<c:when test="${gravite <= 1}">
 							<div class="card border-primary mb-3">
@@ -66,11 +54,7 @@
 						<c:when test="${gravite <= 4}">
 							<div class="card border-danger mb-3">
 						</c:when>
-
-
 					</c:choose>
-
-
 
 					<h5 class="card-title">
 						<b> <c:out
@@ -80,11 +64,6 @@
 							value=" : ${model.chercherVulnerabilite(c.getId_vulnerabilite()).getTitre()}"></c:out>
 					</h5>
 
-					<%-- 						<c:out --%>
-					<%-- 							value="${model.chercherVulnerabilite(c.getId_vulnerabilite()).getReference()}"></c:out> --%>
-					<!-- 						<br> -->
-
-					<!-- 						<br> -->
 					<p class="font-italic">
 						<c:out
 							value="${model.chercherVulnerabilite(c.getId_vulnerabilite()).getDescription()}"></c:out>
